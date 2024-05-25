@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <title>Cadastro com formulário</title>   
+    <link rel="stylesheet" href="../static/style/cadastro.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>Formulário de Registro</header>
+      <form action="/cadastrarUsuario" method="POST" class="form">
+        <div class="input-box">
+          <label>Nome Completo</label>
+          <input type="text" name="nome" placeholder="Nome completo" required />
+        </div>
+        <div class="column">
+          <div class="input-box">
+            <label>Endereço de e-mail</label>
+            <input type="text" name="email" placeholder="Endereço de e-mail" required />
+          </div>
+          <div class="input-box">
+            <label>Senha</label>
+            <input type="password" name="senha" placeholder="Senha" required />
+          </div>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </body>
+</html>

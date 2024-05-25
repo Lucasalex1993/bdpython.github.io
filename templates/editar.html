@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Usuário</title>
+    <link rel="stylesheet" type="text/css" href="../static/style/styles.css">
+</head>
+<body>
+    <h1>Editar Usuário</h1>
+    <form action="/editarUsuario" method="post">
+        <div class="input-box">
+            <label>Nome Completo</label>
+            <input type="text" name="nome" placeholder="Nome completo" required />
+          </div>
+          <div class="column">
+            <div class="input-box">
+              <label>Endereço de e-mail</label>
+              <input type="text" name="email" placeholder="Endereço de e-mail" required />
+            </div>
+            <div class="input-box">
+              <label>Senha</label>
+              <input type="password" name="senha" placeholder="Senha" required />
+            </div>
+          <button type="submit">Salvar Alterações</button>
+    </form>

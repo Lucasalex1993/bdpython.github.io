@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: postgre
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_DB: meubancoyour_dbname
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  web:
+    build: .
+    command: flask run --host=0.0.0.0
+    volumes:
+      - .:/app
+    ports:
+      - "5000:5000"
+    environment:
+      FLASK_ENV: development
+      DATABASE_URL: postgresql://postgre:1234@db/meubanco
+    depends_on:
+      - db
+
+volumes:
+  pgdata:
