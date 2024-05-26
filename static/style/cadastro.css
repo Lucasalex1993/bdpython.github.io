@@ -1,132 +1,42 @@
-/* Reset some default styles */
-body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, fieldset {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-  }
-  
-  body {
-    line-height: 1;
-  }
-  
-  ul, ol {
-    list-style: none;
-  }
-  
-  /* Container for the form */
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f4f7f8;
-    border-radius: 8px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  }
-  
-  header {
-    font-size: 24px;
+/* cadastro.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
     text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .input-box {
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.input-box {
     margin-bottom: 15px;
-  }
-  
-  .input-box label {
+}
+
+.input-box label {
     display: block;
     margin-bottom: 5px;
-    font-weight: bold;
-  }
-  
-  .input-box input,
-  .input-box select {
+}
+
+.input-box input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
     width: 100%;
     padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
-  .column {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .column .input-box {
-    flex: 1;
-    margin-right: 10px;
-  }
-  
-  .column .input-box:last-child {
-    margin-right: 0;
-  }
-  
-  .gender-box {
-    margin-bottom: 15px;
-  }
-  
-  .gender-box h3 {
-    margin-bottom: 10px;
-  }
-  
-  .gender-option {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .gender-option .gender {
-    display: flex;
-    align-items: center;
-  }
-  
-  .gender-option .gender input {
-    margin-right: 5px;
-  }
-  
-  .address {
-    margin-bottom: 15px;
-  }
-  
-  .address .column {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .address .column .input-box {
-    flex: 1;
-    margin-right: 10px;
-  }
-  
-  .address .column .input-box:last-child {
-    margin-right: 0;
-  }
-  
-  .select-box {
-    width: 48%;
-  }
-  
-  button {
-    padding: 10px 20px;
-    background-color: #5cb85c;
-    color: #fff;
+    background-color: #4CAF50;
+    color: white;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
-    font-size: 16px;
-    align-self: center;
-  }
-  
-  button:hover {
-    background-color: #4cae4c;
-  }
-  
+}
+
+button:hover {
+    background-color: #45a049;
+}
