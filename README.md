@@ -19,4 +19,4 @@ Este é um projeto simples de RAD (Rapid Application Development) em Python, uti
 - Gustavo Pascoal Novais Batista  
   RA: 202302380931
 
-Este projeto foi desenvolvido como parte de um trabalho acadêmico ou profissional, com o objetivo de demonstrar o uso das tecnologias mencionadas acima para desenvolvimento rápido de aplicações web.
+Este projeto foi desenvolvido como parte de um trabalho acadêmico, com o objetivo de demonstrar o uso das tecnologias mencionadas acima para desenvolvimento rápido de aplicações web.
